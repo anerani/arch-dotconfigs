@@ -79,5 +79,4 @@ source $ZSH/oh-my-zsh.sh
 # Additional configurations
 #
 
-[[ -f $HOME/.Xresources ]] && xrdb -load -I$HOME ~/.Xresources
 alias ls='ls -C --color=auto'
