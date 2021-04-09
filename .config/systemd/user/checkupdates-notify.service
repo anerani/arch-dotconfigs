@@ -1,0 +1,6 @@
+[Unit]
+Description=Check and notify on available package updates
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/checkupdates-notify-send

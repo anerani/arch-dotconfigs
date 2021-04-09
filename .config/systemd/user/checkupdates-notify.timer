@@ -1,0 +1,12 @@
+[Unit]
+# Start with every 3 hours if it becomes noisy
+Description=Run checkupdates-notify service once per 3 hours
+
+[Timer]
+# Run 5 minutes after booting up
+OnBootSec=5min
+OnUnitActiveSec=3h
+Unit=checkupdates-notify.service
+
+[Install]
+WantedBy=timers.target
